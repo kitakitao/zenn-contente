@@ -56,7 +56,7 @@ npx zenn init
 ### 新規記事
 
 ```bash
-npx zenn new:article --slug first-article
+npx zenn-cli new:article --slug first-article
 ```
 
 例: `articles/first-article.md`
@@ -64,7 +64,7 @@ npx zenn new:article --slug first-article
 ### 新規本（シリーズ記事）
 
 ```bash
-npx zenn new:book --slug first-book
+npx zenn-cli new:book --slug first-book
 ```
 
 ---
@@ -72,7 +72,7 @@ npx zenn new:book --slug first-book
 ## 👀 プレビュー
 
 ```bash
-npx zenn preview
+npx zenn-cli preview
 ```
 
 * `http://localhost:8000` で記事をリアルタイム確認
